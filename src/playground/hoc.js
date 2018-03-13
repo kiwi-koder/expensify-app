@@ -2,7 +2,7 @@
 // Reuse code
 // Render hijacking
 // Prop manipulation
-// Abstract state
+// Abstract state 
 
 import React from 'react';
 import ReactDOM from 'react-dom';

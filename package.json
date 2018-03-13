@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test-watch": "jest --watch",
+    "test-watch": "npm run test -- --watch",
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server"
@@ -41,6 +41,7 @@
     "webpack-dev-server": "^2.5.1"
   },
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "react-test-renderer": "^16.0.0"
   }
 }

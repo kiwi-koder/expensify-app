@@ -4,7 +4,7 @@ import { setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate } fro
 import { DateRangePicker } from 'react-dates';
 class ExpenseListFilters extends React.Component {
     state = {
-        calendarFocussed: null
+        calendarFocused: null
     };
 
     onDatesChange = ({ startDate, endDate }) => {
@@ -34,7 +34,7 @@ class ExpenseListFilters extends React.Component {
                     onFocusChange={this.onFocusChange}
                     numberOfMonths={1}
                     isOutsideRange={() => false}
-                    showClearDates={true}
+                    showClearDates={false}
                 />
             </div>
         )
